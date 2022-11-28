@@ -1,0 +1,237 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-link: #2196F3;
+    --color-background: #FFFFFF;
+    --font-family: 'roboto', arial sans-serif;
+    letter-spacing: 3%;
+}
+
+body{
+    background-color:var(--color-background);
+    font-family: 'roboto';
+}
+
+.main-logo{
+    color: #2196F3;
+    color: #000000;
+    line-height: 1.1738;
+    size: 26px;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.head-link{
+    color:var(--color-link);
+    text-decoration:none ;
+    line-height: ;
+    size: ;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.head-link:hover{
+    text-decoration: underline; 
+    line-height: ;
+    size: ;
+}
+.header-link {
+    color: var(--color-primary) ;
+    text-decoration:none ;
+    line-height: ;
+    size: ;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.header-link:hover{
+    text-decoration: underline; 
+}
+
+
+.subheader-link:hover {
+    color:var(--color-link);
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.hero-title {
+    line-height:1.3636;
+    size: 44px; 
+    font-weight: 900;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    background-color:#2F303A;
+    color: var(--color-background);
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    top: 280px;
+    left: 452px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+}
+
+.hero-section {
+   background-color:var(--color-background);
+}
+
+.button {
+    line-height: 1,857 ;
+    size: 16px ;
+    width: 216px;
+    height: 30px;
+    top: 430px;
+    left: 692px;
+    background-color: var(--color-link);
+    color: var(--color-background);
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.button:hover{
+    cursor: pointer;
+    width: 216px;
+    height: 30px;
+    top: 430px;
+    left: 692px;
+    background-color: var(--color-link);
+    color: var(--color-background);
+    border-radius: 4%;
+}
+.main-button{
+    background-color: var(--color-link);
+    color: var(--color-background);
+    cursor: pointer;
+    width: 73px;
+    height: 38px;
+    border-radius:4px
+   
+    
+}
+
+.main-logo{
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    list-style-type: none;
+    text-decoration-line: none;
+    line-height: 1,1738;
+    size: 26px;
+}
+.web{
+    color: var(--color-link);
+    line-height: 1,1738;
+    size: 26px;
+}
+.buttons { 
+    color:#757575;
+    cursor: pointer;
+    width: 125px;
+    height: 38px;
+    border-radius:4px
+    
+}
+
+.heading-title {
+    color: var(--color-primary);
+    font-weight: 700px;
+    line-height: 1.1721 ;
+    size: 14px ;
+}
+
+.heading_subtitle {
+    color: var(--color-secondary);
+    font-weight: 400px;
+    line-height:1,7142 ;
+    size: 14px; ;
+}
+
+.head-title{
+    color: var(--color-primary);
+    font-weight: 700px;
+    line-height: 1.1719;
+    size: 36px;
+}
+.head-subtitle{
+    color: var(--color-primary);
+    line-height: 1.1718 ;
+    size: 16px; ;
+    font-style: var(--font-family);
+    font-weight: 500;
+}
+
+.text-subtitle{
+    color: var(--color-secondary);
+    font-weight: 400px; 
+    line-height: 1.17180;
+    size: 16px ;
+    font-style: var(--font-family);
+}
+
+.hero-footer{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    
+}
+
+.link-logo{
+    color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700px;
+    size: 26px;
+    line-height: 1.738;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.link-logo{
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    list-style-type: none;
+    text-decoration-line: none;
+    line-height: 1,1738;
+    size: 26px;
+}
+      
+.link-adress{
+    color: #FFFFFF;
+    line-height: 1.714;
+    size: 14px;
+    font-family: 'roboto';
+}
+
+.link-adress: :hover{ 
+ 
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.link-mail{
+    color: #FFFFFF;
+    line-height: 1.714;
+    size: 14px;
+    font-family: 'roboto';
+}
+
+
+.link-mail:hover{
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.link-tel{
+    color: #FFFFFF;
+    line-height: 1.714;
+    size: 14px;
+    font-family: 'roboto';
+}
+
+
+.link-tel:hover{
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.link-box{
+    color: var(--color-background);
+    background-color: var(--color-link);
+}
