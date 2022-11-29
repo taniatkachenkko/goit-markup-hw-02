@@ -1,10 +1,10 @@
 :root {
     --color-primary: #212121;
     --color-secondary: #757575;
-    --color-link: #2196F3;
+    --color-third: #2196F3;
     --color-background: #FFFFFF;
     --font-family: 'roboto', arial sans-serif;
-    letter-spacing: 3%;
+    
 }
 
 body{
@@ -12,56 +12,63 @@ body{
     font-family: 'roboto';
 }
 
+
 .main-logo{
     color: #2196F3;
     color: #000000;
-    line-height: 1.1738;
-    size: 26px;
+    line-height: 1.17;
     text-decoration-line: none;
     list-style-type: none;
+    font-family: 'raleway';
 }
 
+
 .head-link{
-    color:var(--color-link);
+    color: var(--color-third);
     text-decoration:none ;
-    line-height: ;
-    size: ;
     text-decoration-line: none;
     list-style-type: none;
 }
 
 .head-link:hover{
     text-decoration: underline; 
-    line-height: ;
-    size: ;
+
 }
 .header-link {
     color: var(--color-primary) ;
     text-decoration:none ;
-    line-height: ;
-    size: ;
     text-decoration-line: none;
     list-style-type: none;
 }
 .header-link:hover{
     text-decoration: underline; 
 }
-
-
-.subheader-link:hover {
-    color:var(--color-link);
+.hero-links{
     text-decoration-line: none;
     list-style-type: none;
 }
 
+.sub-links{
+    list-style-type: none;
+}
+
+.subhero-links{
+    font-family: 'roboto';
+    list-style-type: none;
+    color: var(--color-secondary);
+    text-decoration-line: none;
+    list-style-type: none;
+    } 
+
+.subhero-links:hover{
+    text-decoration: underline;
+}
+
 .hero-title {
-    line-height:1.3636;
-    size: 44px; 
-    font-weight: 900;
+    line-height:1.36;
     width: 696px;
     height: 120px;
-    left: 452px;
-    top: 280px;
+    font-weight: 900;
     background-color:#2F303A;
     color: var(--color-background);
     font-family: 'roboto', sans-serif;
@@ -78,13 +85,11 @@ body{
 }
 
 .button {
-    line-height: 1,857 ;
-    size: 16px ;
     width: 216px;
     height: 30px;
     top: 430px;
     left: 692px;
-    background-color: var(--color-link);
+    background-color: var(--color-third);
     color: var(--color-background);
     border-radius: 4%;
     cursor: pointer;
@@ -96,12 +101,19 @@ body{
     height: 30px;
     top: 430px;
     left: 692px;
-    background-color: var(--color-link);
+    background-color: var(--color-third);
     color: var(--color-background);
     border-radius: 4%;
 }
+
+.title-list{
+    text-decoration-line: none;
+    list-style-type: none;
+}
+    
+    
 .main-button{
-    background-color: var(--color-link);
+    background-color: var(--color-third);
     color: var(--color-background);
     cursor: pointer;
     width: 73px;
@@ -116,13 +128,12 @@ body{
     font-family: 'Raleway';
     list-style-type: none;
     text-decoration-line: none;
-    line-height: 1,1738;
-    size: 26px;
+    text-transform: capitalize;
 }
 .web{
-    color: var(--color-link);
-    line-height: 1,1738;
-    size: 26px;
+    text-transform: capitalize;
+    color: var(--color-third);
+    font-family: 'raleway';
 }
 .buttons { 
     color:#757575;
@@ -132,106 +143,110 @@ body{
     border-radius:4px
     
 }
-
+.buttons-title{
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.pictures{
+    text-decoration-line: none;
+    list-style-type: none;
+}
 .heading-title {
     color: var(--color-primary);
-    font-weight: 700px;
-    line-height: 1.1721 ;
-    size: 14px ;
+    line-height: 1.17 ;
+
 }
 
 .heading_subtitle {
     color: var(--color-secondary);
-    font-weight: 400px;
-    line-height:1,7142 ;
-    size: 14px; ;
 }
 
 .head-title{
     color: var(--color-primary);
-    font-weight: 700px;
     line-height: 1.1719;
-    size: 36px;
 }
 .head-subtitle{
     color: var(--color-primary);
-    line-height: 1.1718 ;
-    size: 16px; ;
+    line-height: 1.17 ;
     font-style: var(--font-family);
-    font-weight: 500;
 }
 
+.img-title{
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.team-title{
+    text-decoration-line: none;
+    list-style-type: none;
+}
 .text-subtitle{
-    color: var(--color-secondary);
-    font-weight: 400px; 
-    line-height: 1.17180;
-    size: 16px ;
+    color: var(--color-secondary); 
+    line-height: 1.17;
     font-style: var(--font-family);
 }
 
 .hero-footer{
     background-color: #2F303A;
     color: #FFFFFF;
-    
+   
 }
 
 .link-logo{
+    text-transform: capitalize;
     color: #2196F3;
     color: #FFFFFF;
-    font-weight: 700px;
-    size: 26px;
-    line-height: 1.738;
+    line-height: 1.73;
     text-decoration-line: none;
     list-style-type: none;
-}
-.link-logo{
-    text-transform: uppercase;
     font-family: 'Raleway';
     list-style-type: none;
     text-decoration-line: none;
-    line-height: 1,1738;
-    size: 26px;
 }
+
       
 .link-adress{
     color: #FFFFFF;
     line-height: 1.714;
-    size: 14px;
     font-family: 'roboto';
-}
-
-.link-adress: :hover{ 
- 
+    font-style:normal;
     text-decoration-line: none;
     list-style-type: none;
 }
 
+
 .link-mail{
     color: #FFFFFF;
-    line-height: 1.714;
-    size: 14px;
+    line-height: 1.71;
     font-family: 'roboto';
+    font-style:normal;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.link-adress:hover{
+    
 }
 
 
 .link-mail:hover{
-    text-decoration-line: none;
     list-style-type: none;
+    
 }
 .link-tel{
     color: #FFFFFF;
     line-height: 1.714;
-    size: 14px;
+    font-style:normal;
     font-family: 'roboto';
-}
-
-
-.link-tel:hover{
     text-decoration-line: none;
     list-style-type: none;
 }
 
+
+.link-tel:hover{
+    list-style-type: none;
+}
+
 .link-box{
-    color: var(--color-background);
-    background-color: var(--color-link);
+    text-decoration-line: none;
+    list-style-type: none;
 }
