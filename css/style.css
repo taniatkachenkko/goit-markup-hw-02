@@ -3,19 +3,23 @@
     --color-secondary: #757575;
     --color-third: #2196F3;
     --color-background: #FFFFFF;
+    --color-button: #188CE8;
     --font-family: 'roboto', arial sans-serif;
+    --color-section: #2F303A;
+    --color-logo:#000000;
+    --color-pictures-bcg: #EEEEEE;
     
 }
 
 body{
     background-color:var(--color-background);
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 }
 
 
 .main-logo{
-    color: #2196F3;
-    color: #000000;
+    color: var(--color-third);
+    color: var(--color-logo);
     font-weight: 700;
     line-height: 1.17;
     text-decoration-line: none;
@@ -57,7 +61,6 @@ body{
 }
 
 .subhero-links{
-    font-family: 'roboto';
     list-style-type: none;
     color: var(--color-secondary);
     text-decoration-line: none;
@@ -69,46 +72,35 @@ body{
 }
 
 .hero-title {
+    font-size: 44px;
     line-height:1.36;
     width: 696px;
     height: 120px;
     font-weight: 900;
     color: var(--color-background);
-    font-family: 'roboto', sans-serif;
     text-align: center;
-    top: 280px;
-    left: 452px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
 }
 
 .hero-section {
-   background-color: #2F303A;
+   background-color: var(--color-section);
    
 }
 
 .button {
     width: 216px;
     height: 30px;
-    top: 430px;
-    left: 692px;
-    background-color: var(--color-third);
+    background-color: var(--color-button);
     color: var(--color-background);
     border-radius: 4%;
     cursor: pointer;
+    font-family: inherit;
+    border: none;
+    letter-spacing: 0.06em;
 }
 
-.button:hover{
-    cursor: pointer;
-    width: 216px;
-    height: 30px;
-    top: 430px;
-    left: 692px;
-    background-color: var(--color-third);
-    color: var(--color-background);
-    border-radius: 4%;
-}
 
 .title-list{
     text-decoration-line: none;
@@ -122,9 +114,12 @@ body{
     cursor: pointer;
     width: 73px;
     height: 38px;
-    border-radius:4px
-   
+    font-family: inherit;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
     
+
 }
 
 .main-logo{
@@ -141,14 +136,19 @@ body{
     font-weight: 700;
 }
 .buttons-section{
-    background-color: #FFFFFF;
+    background-color:var(--color-background);
+
 }
 .buttons { 
-    color:#757575;
+    border: none;
+    font-family: inherit;
+    color:var(--color-primary);
+    letter-spacing: 0.03em;
     cursor: pointer;
     width: 125px;
     height: 38px;
     border-radius:4px
+    
     
 }
 .buttons-title{
@@ -158,29 +158,49 @@ body{
 .pictures{
     text-decoration-line: none;
     list-style-type: none;
-    border: 1px solid #EEEEEE;
-    background-color: #fff;
-    font-weight: 400;
+    border: 1px solid var(--color-pictures-bcg);
+    background-color: var(--color-background);
+
+}
+.pictures-title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.sub-pictures{
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.03em;
+
 }
 .heading-title {
     color: var(--color-primary);
     line-height: 1.17 ;
-
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .heading_subtitle {
     color: var(--color-secondary);
-    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .head-title{
     color: var(--color-primary);
-    line-height: 1.1719;
+    line-height: 1.17;
+    font-size: 36px;
+    letter-spacing: 0.03em;
 }
 .head-subtitle{
     color: var(--color-primary);
     line-height: 1.17 ;
+    font-size: 16px ;
     font-style: var(--font-family);
+    letter-spacing: 0.03em;
 }
 
 .img-title{
@@ -196,19 +216,21 @@ body{
     color: var(--color-secondary); 
     line-height: 1.17;
     font-style: var(--font-family);
-    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+
 }
 
 .hero-footer{
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--color-section);
+    color: var(--color-background);
    
 }
 
 .link-logo{
     text-transform: capitalize;
-    color: #2196F3;
-    color: #FFFFFF;
+    color: var(--color-third);
+    color: var(--color-background);
     line-height: 1.73;
     text-decoration-line: none;
     list-style-type: none;
@@ -220,9 +242,8 @@ body{
 
       
 .link-adress{
-    color: #FFFFFF;
+    color: var(--color-background);
     line-height: 1.714;
-    font-family: 'roboto';
     font-style:normal;
     text-decoration-line: none;
     list-style-type: none;
@@ -231,37 +252,23 @@ body{
 
 
 .link-mail{
-    color: #FFFFFF;
+    color: var(--color-background);
     line-height: 1.71;
-    font-family: 'roboto';
     font-style:normal;
     text-decoration-line: none;
     list-style-type: none;
     font-weight: 400;
 }
-.link-adress:hover{
-    
-}
 
-
-.link-mail:hover{
-    list-style-type: none;
-    
-}
 .link-tel{
-    color: #FFFFFF;
+    color: var(--color-background);
     line-height: 1.714;
     font-style:normal;
-    font-family: 'roboto';
     text-decoration-line: none;
     list-style-type: none;
     font-weight: 400;
 }
 
-
-.link-tel:hover{
-    list-style-type: none;
-}
 
 .link-box{
     text-decoration-line: none;
